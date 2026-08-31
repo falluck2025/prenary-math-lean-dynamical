@@ -1,7 +1,7 @@
 # 偏元数学微分方程与动力系统 · Lean 4 形式化验证
 # Prenary Differential Equations & Dynamical Systems · Formal Verification in Lean 4
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22207668.svg)](https://doi.org/10.5281/zenodo.22207668)
 
 > **声明**：本文工作尚未得到独立实验验证，全部结论均为形式化验证层面的初步结果。
 
@@ -116,11 +116,5 @@ Prenary Mathematics is an attempt to introduce an "action residual ε" onto clas
 
 ---
 
-## 作者备注（非正文）
-
-- **内部编码**：Day11（演化·变换·迭代）、Day11-02（Picard 迭代）、Day11-03（线性稳定点偏移）
-- **术语对照**：动作残差 = action residual ε；退化 = degenerate（ε=0 回经典）；平移保距 = translation invariance
-- **修正记录**：2026-08-29 `add_right_cancel` → `add_left_cancel`（方向）；`sub_ne_zero.mpr ha` → `ha.symm`
-- **待办**：PDE 稳定性、李雅普诺夫非线性推广、混沌门槛（非线性系统 ε 移动门槛）——均待后续专门研究
 
 ——老陈与AI的深夜实验室 发布 请笑纳——
